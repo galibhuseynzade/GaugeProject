@@ -5,3 +5,4 @@
 
 ## Print Hello World
 * Print "Hello World"
+* Print "Salam Dunya"
