@@ -1,0 +1,34 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [ master ]   # runs only when you push/merge into master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Build project
+        run: mvn -B -DskipTests package
+
+      # ---- Replace this step with whatever "deployment" means for you ----
+      - name: Deploy
+        run: echo "Deploying app..." 
+        # e.g. copy JAR somewhere, upload to server, or just keep artifact
+
+      # Optional: keep the built JAR as an artifact
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gaugeproject
+          path: target/*.jar
