@@ -1,0 +1,10 @@
+{
+  "firstName":      { "type": "id", "value": "firstName" },
+  "lastName":       { "type": "id", "value": "lastName" },
+  "birthDate":      { "type": "id", "value": "birthDate" },
+  "finCode":        { "type": "id", "value": "finCode" },
+  "phoneNumber":    { "type": "id", "value": "phoneNumber" },
+  "email":          { "type": "id", "value": "email" },
+  "createButton":   { "type": "xpath", "value": "//button[text()='Create']" },
+  "cancelButton":   { "type": "xpath", "value": "//button[text()='Cancel']" }
+}

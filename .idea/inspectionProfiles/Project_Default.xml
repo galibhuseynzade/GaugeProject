@@ -8,6 +8,10 @@
           <option value="gauge_java_maven" />
           <option value="gauge_java_maven" />
           <option value="gauge_java_maven" />
+          <option value="gauge_java_maven" />
+          <option value="gauge_java_maven" />
+          <option value="gauge_java_maven" />
+          <option value="gauge_java_maven" />
         </list>
       </option>
       <option name="ignoredPackages">
@@ -15,12 +19,20 @@
           <option value="commons-io:commons-io:2.8.0" />
           <option value="commons-lang:commons-lang:2.6" />
           <option value="org.json:json:20200518" />
+          <option value="com.google.protobuf:protobuf-java:3.13.0" />
+          <option value="com.google.guava:guava:29.0-jre" />
+          <option value="commons-codec:commons-codec:1.11" />
+          <option value="org.apache.commons:commons-lang3:3.17.0" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
           <option value="Not exploitable" />
           <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Fixed in branch" />
+          <option value="Other" />
           <option value="Not exploitable" />
         </list>
       </option>

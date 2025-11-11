@@ -1,0 +1,4 @@
+{
+  "createCustomerButton": { "type": "xpath", "value": "//button[@data-bs-target='#createCustomerModal']" },
+  "customerList":         { "type": "xpath", "value": "//tbody/tr" }
+}

@@ -1,0 +1,10 @@
+{
+  "logoutButton":       { "type": "xpath", "value": "//button[text()='Logout']" },
+  "settingsButton":     { "type": "xpath", "value": "//button[@aria-label='Settings']" },
+  "customersButton":    { "type": "xpath", "value": "//div[text()='Customers']" },
+  "accountsButton":     { "type": "xpath", "value": "//div[text()='Accounts']" },
+  "cardsButton":        { "type": "xpath", "value": "//div[text()='Cards']" },
+  "transactionsButton": { "type": "xpath", "value": "//div[text()='Transactions']" },
+  "usersButton":        { "type": "xpath", "value": "//div[text()='Users']" },
+  "dashboardButton":    { "type": "xpath", "value": "//div/a[text()='PaymentSystem']" }
+}
