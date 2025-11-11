@@ -1,0 +1,5 @@
+{
+  "username":    { "type": "id", "value": "username" },
+  "password":    { "type": "id", "value": "password" },
+  "loginButton": { "type": "xpath", "value": "//button[@type='submit']" }
+}
