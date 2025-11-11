@@ -1,0 +1,7 @@
+{
+"listAllAccountsButton":        {"type": "xpath", "value": "//button[text()='List All Accounts']"},
+"listAccountsByCustomerButton": {"type": "xpath", "value": "//button[text()='List Accounts by Customer']"},
+"createAccountButton":          {"type": "xpath", "value": "//button[text()='Create Account']"},
+"accountList":                  {"type": "xpath", "value": "//tbody/tr"},
+"enterCustomerId":              {"type": "id", "value": "customerId"}
+}
